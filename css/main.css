@@ -1,3 +1,238 @@
 /*
  * Estilos de tu proyecto
  */
+ * {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+ }
+/*NAVEGADOR*/
+nav {
+  width: 100%;
+  height: 107px;
+  position: fixed;
+  top: 0px;
+  padding: 36px 130px 40px 114px;
+}
+nav p {
+  font-size: 30px;
+  display: inline-block;
+}
+nav p:hover {
+  cursor: pointer;
+}
+nav ul {
+  list-style: none;
+  font-size: 18px;
+  float: right;
+}
+nav li {
+  display: inline-block;
+  margin: 10px 17px;
+}
+nav li:hover {
+  color: #18bc9c;
+  cursor: pointer;
+}
+/*BLOQUE TURQUESA*/
+.box-one {
+  width: 100%;
+  height: 630px;
+  text-align: center;
+  margin-top: 100px;
+  padding: 83px 117px 92px 117px;
+}
+.box-one img {
+ margin-bottom: 27px;
+}
+.title {
+ font-size: 70px;
+ margin-bottom: 18px;
+}
+.star-box {
+ width: 245px;
+ height: 43px;
+ overflow: auto;
+ margin: 2% 39%;
+}
+.star-box hr {
+ height: 5px;
+ width: 96px;
+ border: none;
+ margin-top: 15px;
+}
+.line-left{
+ float: left;
+}
+.star-box i {
+ font-size: 37px;
+}
+.line-right {
+ float: right;
+}
+.subtitle {
+font-size: 29px;
+}
+/*BLOQUE BLANCO*/
+.box-two {
+ width: 100%;
+ height: 800px;
+ text-align: center;
+ padding: 70px 117px 92px 146px;
+}
+figure {
+ width: 1110px;
+}
+.images{
+ width: 100%;
+ overflow: auto;
+}
+.images img {
+ float: left;
+ width: 30%;
+ margin: 0 29px 29px 0;
+}
+/*TERCER BLOQUE*/
+.box-three {
+ width: 100%;
+ height: 600px;
+ text-align: center;
+ height: 638px;
+ padding: 70px 117px 92px 146px;
+}
+.columns {
+ overflow: auto;
+ margin-left: 17%;
+}
+.column {
+ display: inline-block;
+ text-align: left;
+ height: 204px;
+ width: 353px;
+ float:left;
+ margin-right: 30px;
+ line-height: 29px;
+ font-size: 20px;
+}
+.download {
+ border: 2px solid #fff;
+ border-radius: 3px;
+ padding: 18px 25px;
+ background: none;
+ font-size: 20px;
+ margin-top: 30px;
+}
+.download:hover {
+  background: #fff;
+  color: black;
+}
+/*CUARTO BLOQUE;*/
+.box-four {
+ width: 100%;
+ height: 900px;
+ text-align: center;
+ padding: 84px 117px 92px 117px;
+}
+form {
+ margin-left: 20%;
+ overflow: auto;
+}
+input {
+ display: block;
+ border: none;
+ border-bottom: 1px solid rgb(233,236,239);
+ font-size: 25px;
+ outline: none;
+ width: 734px;
+ height: 100px;
+}
+textarea {
+ display: block;
+ border: none;
+ border-bottom: 1px solid rgb(233,236,239);
+ font-size: 25px;
+ outline: none;
+ width: 734px;
+ height: 200px;
+ margin-top: 40px;
+}
+.send {
+ margin-top: 30px;
+ padding: 20px 35px;
+ border: none;
+ font-size: 19px;
+ border-radius: 4px;
+ float: left;
+}
+/*FOOTER*/
+footer {
+ width: 100%;
+ height: 300px;
+ background: rgb(44,62,80);
+ padding: 70px 120px;
+ overflow: auto;
+}
+.square {
+ width: 340px;
+ height: 160px;
+ display: inline-block;
+ text-align: center;
+ float: left;
+ line-height: 27px;
+ margin-left: 15px;
+}
+h2 {
+ margin-bottom: 26px;
+}
+.icons i {
+ border-radius: 50%;
+ border: 2px solid #fff;
+ padding: 15px 18px;
+ margin-right: 3px;
+}
+.icons i:hover {
+  background: #fff;
+  color: rgb(44,62,80);
+}
+.last-box {
+ width: 100%;
+ height: 71px;
+ text-align: center;
+ font-size: 15px;
+ padding: 24px;
+ background: rgb(26,37,47);
+}
+/*CLASES REUTILIZABLES*/
+.font-lato {
+  font-family: 'Lato', sans-serif;
+  font-family: 'lato', sans-serif;
+}
+.color-white {
+  color: #fff;
+}
+.color-blue {
+  color: #2c3e50;
+}
+.color-green {
+  color: #18bc9c;
+}
+.bold {
+  font-weight: 900;
+}
+.background-blue {
+  background: #2c3e50;
+  }
+.background-two {
+  background: #18bc9c;
+}
+.background-three {
+  background: #212529;
+}
+.background-white {
+  background: #fff;
+}
+.fifty-size {
+  font-size: 50px;
+}
