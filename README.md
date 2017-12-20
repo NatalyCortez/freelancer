@@ -1,14 +1,15 @@
 # Freelancer
 -----------------------------------
 ## Objetivo
+- Poner en práctica los conocimientos adquiridos en clase.
 
-El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
+- El reto consiste en replicar el sitio de **Freelancer**, este será el resultado
 a lograr:
 
 ![Freelancer Website](docs/fullpage.png)
 
-* Deberás **actualizar el archivo `README.md`** explicando el contenido de tu
-  repositorio.
+## Conocimientos previos
 
+1. HTML5
 
-  la web original se hace con un ícono y pseudoelementos (`:after`, `:before`),
+2. CSS3 
